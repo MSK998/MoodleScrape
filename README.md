@@ -1,5 +1,5 @@
 # MoodleScrape
-A Python3 script to pull all downloadable files from RGU Moodle pages
+A Python3 script to pull all downloadable files from RGU Moodle pages. All that is needed is a link to the module page similar to this: http://campusmoodle.rgu.ac.uk/course/view.php?id=94733
 
 MoodleScrape is designed to make life a little bit easier for Robert Gordon University students and staff.
 
