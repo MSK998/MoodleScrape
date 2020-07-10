@@ -86,7 +86,7 @@ scrape_req = session_requests.get(
 soup = BeautifulSoup(scrape_req.content.decode('UTF-8'), features="lxml")
 
 #Finds the title of the module and removes whitespace
-title = soup.h1.get_text().replace(" ", "_")
+title = soup.find("span", {"itemprop": "title"}).get_text().replace(" ", "_")
 
 #Checks local machine if a directory with the same title of module title exists
 #If not then it is created
